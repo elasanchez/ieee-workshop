@@ -1,0 +1,13 @@
+import time
+import RPi.GPIO as GPIO
+
+GPIO.setmode(GPIO.BOARD)
+pin = 12
+i= 0
+GIO.setup(pin, GPIO.OUT, intitial = 0)
+print (str(i+1) + ':GPIO ' + str(pin) + ': str(GPIO.input(pin))))
+
+try:
+finally:
+		GPIO.output(pin, 0)
+		GPIO.cleanup();
